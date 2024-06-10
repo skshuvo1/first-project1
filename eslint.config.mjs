@@ -7,7 +7,7 @@ export default [
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   {
-    extends: [
+    files: [
       'eslint:recommended',
       'plugin:@typescript-eslint/recommended',
       'prettier',
